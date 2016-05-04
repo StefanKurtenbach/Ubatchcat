@@ -6,7 +6,6 @@ Script will merge (cat) files in all folders present where the python script is 
 
 BEFORE RUN:
 
----FolderX
     --- Batchcat.py
     --- Sample1
       --- 2016-05-03-01-F47_S7_L001_R1_001.fastq.gz
@@ -21,7 +20,6 @@ BEFORE RUN:
 
 AFTER RUN:
 
----FolderX
     --- Batchcat.py
     --- Sample1
       --- 2016-05-03-01-F47_S7_L001_R1_001.fastq.gz
