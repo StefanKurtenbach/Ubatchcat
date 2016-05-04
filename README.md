@@ -9,12 +9,12 @@ BEFORE RUN:
 FolderX
     --- Batchcat.py
     
-    --- Folder1
+    --- Sample1
       --- 2016-05-03-01-F47_S7_L001_R1_001.fastq.gz
       --- 2016-05-03-01-F47_S7_L002_R1_001.fastq.gz
       --- 2016-05-03-01-F47_S7_L003_R1_001.fastq.gz
       
-    --- Folder2
+    --- Sample2
       --- 2016-05-03-07-Mel202-ctrl3_S4_L001_R1_001.fastq.gz
       --- 2016-05-03-07-Mel202-ctrl3_S4_L002_R1_001.fastq.gz
       --- 2016-05-03-07-Mel202-ctrl3_S4_L003_R1_001.fastq.gz
