@@ -32,4 +32,4 @@ AFTER RUN:
       --- 2016-05-03-07-Mel202-ctrl3_S4_L004_R1_001.fastq.gz
     --- Output
       --- Sample1.fastq.gz
-      --- Sample.fastq.gz
+      --- Sample2.fastq.gz
