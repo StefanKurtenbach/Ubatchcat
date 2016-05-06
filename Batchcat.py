@@ -1,4 +1,5 @@
-# Version 1.0
+# Batchcat version 1.0
+# Stefan Kurtenbach
 
 import os
 
