@@ -1,7 +1,7 @@
 # batchcat
-Batch cat fastq.gz files in all folders and makes multiple output (cat) files in a combined output folder
+Batch cat fastq.gz files in all folders and create merged output (cat) files in a combined output folder
 
-Script will merge (cat) files in all folders present where the python script is located, and save an output file for each folder. Output files will all be saved to the "Output" folder. Files will be named according to the folder name.
+Script will merge (cat) files in all folders present where the python script is located and save an output file for each folder. All output files will be saved to the "Output" folder. Output files will be named according to their folder name.
 
 
 BEFORE RUN:
