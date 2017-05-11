@@ -1,4 +1,4 @@
-# UBatchcat Version 1.1
+# UBatchcat Version 1.2
 
 import os
 
@@ -10,7 +10,7 @@ for folder in folderlist:
 
     fileList = [f for f in os.listdir('./'+folder)]
     print("Woking on folder "+folder)
-    destFilename = "./Output/"+folder+"-fastq.gz"
+    destFilename = "./Output/"+folder+".fastq.gz"
 
 
     with open(destFilename, 'wb') as destFile:
