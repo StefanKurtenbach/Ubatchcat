@@ -3,7 +3,7 @@
 import os
 
 folderlist = [a for a in os.listdir('.') if os.path.isdir(a)]
-bufferSize = 80000000  # Adjust this according to how "memory efficient" you need the program to be.
+bufferSize = 80000000  # Adjust this according to how memory efficient you need the program to be.
 os.makedirs("Output")
 
 for folder in folderlist:
