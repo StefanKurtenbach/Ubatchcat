@@ -1,13 +1,17 @@
 # batchcat
-Batch cat fastq.gz files in all folders and create merged output (cat) files in a combined output folder
+Batch cat fastq.gz files in all folders and create merged output files in a combined output folder
 
-Script will merge (cat) files in all folders present where the python script is located and save an output file for each folder. All output files will be saved to the "Output" folder. Output files will be named according to their folder name.
+Options:
+-p Y (default is -p N), triggers paired-end mode. All files containing "_R1_" in filename will be merged seperatelly from                     files with "_R2_" in file name.
 
-To run, simply place the script into the folder where all your files are (see below), and execute (python UBatchcatv1-1.py)
+
+Script will merge (cat) files in all folders present where the python script is located and save a seperate output file for each folder. All output files will be saved to the "Output" folder. Output files will be named according to their folder name.
+
+To run, simply place the script into the folder where all your files are (see below), and execute (python UBatchcat.py)
 
 BEFORE RUN:
 
-    --- UBatchcatv1-1.py
+    --- UBatchcat.py
     --- Sample1
       --- 2016-05-03-01-F47_S7_L001_R1_001.fastq.gz
       --- 2016-05-03-01-F47_S7_L002_R1_001.fastq.gz
