@@ -1,4 +1,4 @@
-# UBatchcat Version 2.0
+# UBatchcat Version 2.1
 
 import os
 import argparse
@@ -21,7 +21,7 @@ if pairedend == "Y":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./'+folder)])
         print("Woking on folder "+ folder + " R1 reads")
-        destFilename = "./Output/"+folder+"_R1_.fastq.gz"
+        destFilename = "./Output/"+folder+"_R1.fastq.gz"
 
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
@@ -36,7 +36,7 @@ if pairedend == "Y":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./' + folder)])
         print("Woking on folder " + folder + " R2 reads")
-        destFilename = "./Output/" + folder + "_R2_.fastq.gz"
+        destFilename = "./Output/" + folder + "_R2.fastq.gz"
 
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
@@ -55,7 +55,7 @@ if pairedend == "N":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./' + folder)])
         print("Woking on folder "+ folder)
-        destFilename = "./Output/" + folder + "_R1_.fastq.gz"
+        destFilename = "./Output/" + folder + ".fastq.gz"
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
                 print("   " + fileName)
