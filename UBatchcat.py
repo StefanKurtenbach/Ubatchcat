@@ -59,8 +59,8 @@ if pairedend == "N":
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
                 print("   " + fileName)
-                if fileName.find("_R1_"): check_R1_ = True
-                if fileName.find("_R2_"): check_R2_ = True
+                if fileName.find("_R1_") != -1: check_R1_ = True
+                if fileName.find("_R2_") != -1: check_R2_ = True
                 with open("./" + folder + "/" + fileName, 'rb') as sourceFile:
                     chunk = True
                     while chunk:
