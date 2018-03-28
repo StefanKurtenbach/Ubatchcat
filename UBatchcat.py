@@ -1,4 +1,4 @@
-# UBatchcat Version 2.1
+# UBatchcat Version 2.2
 
 import os
 import argparse
