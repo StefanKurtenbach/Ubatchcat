@@ -13,7 +13,7 @@ pairedend = args['paired_end']
 
 folderlist = [a for a in os.listdir('.') if os.path.isdir(a)]
 bufferSize = 80000000  # Adjust this according to how memory efficient you need the program to be.
-os.makedirs("Output")
+os.makedirs("catted_files")
 
 if pairedend == "Y":
     print("Paired-end mode triggered")
@@ -21,7 +21,7 @@ if pairedend == "Y":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./'+folder)])
         print("Woking on folder "+ folder + " R1 reads")
-        destFilename = "./Output/"+folder+"_R1.fastq.gz"
+        destFilename = "./catted_files/"+folder+"_R1.fastq.gz"
 
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
@@ -36,7 +36,7 @@ if pairedend == "Y":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./' + folder)])
         print("Woking on folder " + folder + " R2 reads")
-        destFilename = "./Output/" + folder + "_R2.fastq.gz"
+        destFilename = "./catted_files/" + folder + "_R2.fastq.gz"
 
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
