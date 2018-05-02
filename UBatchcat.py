@@ -2,7 +2,6 @@
 
 import os
 import argparse
-import os
 
 #get arguments from command line
 
