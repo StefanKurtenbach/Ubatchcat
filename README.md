@@ -7,7 +7,9 @@ triggers paired-end mode. All files containing "_R1_" in filename will be merged
 
 Usage:
 python Ubatchcat.py
+
 or
+
 python Ubatchcat.py -p Y
 
 Script will merge (cat) files in all folders and save a seperate output file for each folder. Output files will be named according to their folder name.
