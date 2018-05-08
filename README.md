@@ -28,7 +28,7 @@ BEFORE RUN:
 
 AFTER RUN:
 
-    --- UBatchcatv1-1.py
+    --- UBatchcat.py
     --- Sample1
       --- 2016-05-03-01-F47_S7_L001_R1_001.fastq.gz
       --- 2016-05-03-01-F47_S7_L002_R1_001.fastq.gz
