@@ -5,6 +5,10 @@ Options:
 -p Y (default is -p N) 
 triggers paired-end mode. All files containing "_R1_" in filename will be merged and saved seperatelly from files with                      "_R2_" in file name.
 
+Usage:
+python Ubatchcat.py
+or
+python Ubatchcat.py -p Y
 
 Script will merge (cat) files in all folders and save a seperate output file for each folder. Output files will be named according to their folder name.
 
