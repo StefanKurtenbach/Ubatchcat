@@ -54,7 +54,7 @@ if pairedend == "N":
     for folder in folderlist:
         fileList = sorted([f for f in os.listdir('./' + folder)])
         print("Woking on folder "+ folder)
-        destFilename = "./Output/" + folder + ".fastq.gz"
+        destFilename = "./catted_files/" + folder + ".fastq.gz"
         with open(destFilename, 'wb') as destFile:
             for fileName in fileList:
                 print("   " + fileName)
